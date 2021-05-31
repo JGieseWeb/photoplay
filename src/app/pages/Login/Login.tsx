@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import Button from '../../components/Button/Button';
 import AppIcon from '../../components/Icons/AppIcon';
 import LabeledInput from '../../components/LabeledInput/LabeledInput';
@@ -43,7 +44,7 @@ function Login(): JSX.Element {
       <footer>
         {/* <SocialLogins /> */}
         <p className={styles.hint}>Don't have an account?</p>
-        <a href="#">Register</a>
+        <Link to="/Register">Register</Link>
       </footer>
     </div>
   );

@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import { Login } from './components/Button/Button.stories';
+
 import RegisterForm from './Page/Register';
+import Login from './pages/Login/Login';
 
 function App(): JSX.Element {
   return (
